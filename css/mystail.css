@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "alegreya sc",;
+    src: url("../fonts/cuprum.woff");
+    
+}
+
+body {
+    font-family:"alegreya sc", sans-serif;
+}
+
+
+header {
+    min-height: 200px;
+    background-color: #73626C;
+}
+
+
+.header-top {
+    background-color: #73626C;
+    color: #ffffff
+}
+.name {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+
+h1 {    
+    color: #ffffff; 
+    font-family:"alegreya sc";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    margin:0;
+    }
+
+.nav-menu {
+    width: 75%;
+    margin-left: auto;
+    display: block;
+    
+    
+}
+.main-menu {
+    color: #ffffff;
+    font-family:"alegreya sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+
