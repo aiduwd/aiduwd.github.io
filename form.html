@@ -3,10 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <title>Элементы формы (HTML) </title>
+    <style>
+        .form-html5 {
+            background-color: green;
+                      
+            max-width: 700px;
+            min-width: 400px;
+            
+            margin-left: auto;
+            margin-right: auto;
+           
+            padding: 15px;
+            border: 25px dashed #6616c4;
+            border-radius: 10px;
+            
+            padding: 15px;
+            }
+        
+        
+        
+        .lbl-header {
+            font-size: 14px;
+            font-family: "verdana", sans-serif;
+            
+            color: rgba (66, 66, 252, 15);
+            text-transform: uppercase;
+         }
+        
+        .lbl {
+            color: #034d22;
+            font-style: italic;
+        }
+        
+        .btn {
+            margin-bottom: 10px;
+            margin-top: 10px;
+            padding: 5px 15px;
+            
+            border: none;
+            
+            font-size: 11px;
+            font-weight: bold;
+            letter-spacing: 1.3px;
+            color: white;
+/*            *text-transform: uppercase;*/
+            
+            box-shadow: 1px 2px 0px 0 rdba (77, 96, 83, 0.53);
+            transition:  transform 500ms;
+        }
+        
+        .btn:hover {
+            transform: scale(1.05);
+            cursor: pointer;
+            color: #c6f725;
+        }
+        
+        .btn-reset {
+            background-color:  brown;
+        }
+            
+        .btn-submit {
+            background-color: blue
+        }
+        
+        .form-grup {
+            line-height: 180%;
+        }
+        
+    
+    </style>
 </head>
+
 <body>
     
-    <form action="#" metod="post" class="html15">
+    <form action="#" metod="post" class="form-html5">
        
         <div class="form-grup">
             <label for="login" class="lbl">Логин:</label>
@@ -27,9 +97,9 @@
             <input type="radio" id="w" name="sex">
         </div>
         
-    
-        <label class="lbl">Хобби</label>
-        
+        <div class="form-grup">
+            <label class="lbl">Хобби</label>
+        </div>
         <div class="form-grup">
             
             <label class="lbl" for="football">Футбол</label> 
@@ -43,8 +113,8 @@
         </div>  
     
         <div class="form-group">
-            <input type="reset" value="Очистить">
-            <button tupe="submit">Отправить</button>
+            <input class="btn btn-reset" type="reset" value="Очистить">
+            <button class="btn btn-submit" tupe="submit">Отправить</button>
         </div>
             
     </form>
