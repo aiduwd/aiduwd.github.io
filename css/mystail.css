@@ -1,18 +1,33 @@
-@font-face {
-    font-family: "alegreya sc",;
-    src: url("../fonts/cuprum.woff");
+@font-face { 
+font-family: "alegreya sc", sans-serif;
+src: url("fonts/alegreya sc")
+    
+ }
+@import url:('https://fonts.googleapis.com/css?family=Alegreya+SC:400,400i,500,500i,700,700i,800,800i,900,900i|Alegreya+Sans:100,100i,300,300i,400,400i,500,500i,700,700i,800,800i,900,900i&display=swap&subset=cyrillic,cyrillic-ext');
+
+
+ 
+
+body {
+    background-color: #f0e8dc;
+    font-family:"alegreya sc", sans-serif;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Alegreya SC', serif;
+
+
+    
     
 }
 
-body {
-    font-family:"alegreya sc", sans-serif;
+a {
+    text-decoration: none;
+    color: #ffffff
 }
-
 
 header {
-    min-height: 200px;
+    min-height: 150px;
     background-color: #73626C;
-}
+    }
 
 
 .header-top {
@@ -23,9 +38,19 @@ header {
     width: 25%;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 0px;
+    padding-top: 15px;
     padding-bottom: 0px;
-    }
+    font-family: "alegreya-sc";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 87px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+
+}
 
 h1 {    
     color: #ffffff; 
@@ -39,11 +64,15 @@ h1 {
     margin:0;
     }
 
+.logo-img {
+display: inline-block;
+    
+}
+
 .nav-menu {
     width: 75%;
     margin-left: auto;
-    display: block;
-    
+    display: inline-block;
     
 }
 .main-menu {
@@ -56,6 +85,8 @@ h1 {
     display: flex;
     align-items: center;
     text-align: center;
+    
+   
     
 }
 
