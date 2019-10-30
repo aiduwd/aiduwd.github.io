@@ -1,0 +1,87 @@
+@font-face {
+    /*   font-family: "alegreya", serif;*/
+    /*    font-family: 'Alegreya', serif;*/
+    /*    font-family: 'Alegreya Sans', sans-serif; для меню*/
+
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+body {
+    background-color: #f0e8dc;
+}
+
+header {
+    min-height: 150px;
+    /*    text-align:center;*/
+}
+
+.header-top {
+
+    min-height: 150px;
+    background-color: #73626c;
+
+
+}
+
+.name {
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 64px;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+/*.wrapper-menu{ */
+/*    margin-right: auto;*/
+/*    margin-left: auto;*/
+/*    display:inline-block;*/
+/*    vertical-align: middle;*/
+/*    text-align: center;*/
+/*    */
+
+.my-nav {
+/*    background: red;*/
+    display: inline-block;
+    vertical-align: middle;
+    display: flex;
+    list-style: none;
+    /*    text-align: center;*/
+    /*    margin-left: auto;*/
+    /*    margin-left: auto;*/
+    /*    width: 85%;*/
+    /*    padding-left: 50px;*/
+    /*    padding-right: 50px;*/
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    text-decoration: none;
+    word-spacing: 10px;
+
+}
+
+.logo {
+    /*    display:inline-block;*/
+    /*    width: 150px;*/
+    /*    height: 150px;*/
+    /*    margin: 25px;*/
+    /*    background-color: red;*/
+}
+
+footer {
+    min-height: 20px;
+    background-color: #73626c;
+    color: #ffffff;
+    text-decoration: none;
+    list-style: none;
+}
+
+@media(max-width:768px)h1{font-size:36px}; 
