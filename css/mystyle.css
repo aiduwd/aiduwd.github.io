@@ -5,6 +5,13 @@
 
 /*}*/
 
+/*html{*/
+/*    min-height: 100%;*/
+}
+
+body{
+    background-color: #f0e8dc;
+}
 
 
 a {
@@ -12,21 +19,19 @@ a {
     color: #ffffff;
 }
 
-body {
-    background-color: #f0e8dc;
-    /*    width: 100%;*/
-}
+
 
 header {
-    min-height: 150px;
+
     background-color: #73626c;
     /*    text-align:center;*/
 }
 
 .header-top {
 
-    min-height: 150px;
+    height: 155px;
     background-color: #73626c;
+    position: relative;
 
 
 }
@@ -61,6 +66,9 @@ nav a {
     /*    background: #000;*/
     padding: 0 10px;
     font-size: 36px;
+    display: inline-flex;
+
+
     /*    font-size: 17px;*/
     /*    line-height: normal;*/
     /*    letter-spacing: normal;*/
@@ -72,18 +80,24 @@ nav a {
     /*    display: inline-block;*/
     /*    vertical-align: middle;*/
     display: flex;
+    /*    display: inline-block;*/
     list-style: none;
     /*    text-align: center;*/
     /*        margin-left: auto;*/
     /*        margin-left: auto;*/
-    /*        width: 100%;*/
+    width: 100%;
     /*        padding-left: 50px;*/
     /*        padding-right: 50px;*/
     font-family: 'Alegreya Sans', sans-serif;
     font-weight: bold;
-/*    font-size: 36px;*/
+    /*    font-size: 36px;*/
     text-decoration: none;
     word-spacing: 10px;
+    white-space: pre;
+    /*    position:relative;*/
+    /*    align-self: flex-end;*/
+
+
 
 }
 
@@ -92,10 +106,18 @@ nav a {
     width: 170px;
     height: 170px;
     border-radius: 50%;
-    position: fixed;
-    top: 50px;
+    position: sticky;
+    top: 70px;
+    z-index:99999999;
+
 
 }
+
+/*.mail-content {*/
+/*     flex-grow: 1;*/
+/*}*/
+
+
 
 footer {
     width: 100%;
@@ -104,7 +126,7 @@ footer {
     color: #ffffff;
     text-decoration: none;
     list-style: none;
-    position: absolute;
+    position: fixed;
     bottom: 0;
 
 }
@@ -135,22 +157,54 @@ footer {
 
 }
 
+/*Медиа запрос для шапки*/
 
+@media (max-width: 767px) {
+
+    .header-top {
+        height: 100px;
+
+    }
+}
+
+
+/*Медиа запрос для названия*/
 
 @media (max-width: 768px) {
     .name h1 {
         font-size: 48px;
-    }
-}
-@media (max-width: 414px) {
-    .name h1 {
-      font-size: 36px;
+        
     }
 }
 
+@media (max-width: 414px) {
+    .name h1 {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 414px) {
+    .name h1 {
+        padding: 20px;
+    }
+}
+
+
+
+
+
+
+/*Медиа запрос для менюшки*/
+
+/*@media (max-width: 1051px) {*/
+/*    .my-nav a {*/
+/*        font-size: 30px;*/
+/*    }*/
+/*}*/
+
 @media (max-width: 992px) {
     .my-nav a {
-        font-size: 30px;
+        font-size: 24px;
     }
 }
 
@@ -161,22 +215,142 @@ footer {
 }
 
 
+/*Медиа запрос для лого*/
+
+@media (max-width: 992px) {
+    .logo-ing {
+        width: 140px;
+
+    }
+}
+
+@media (max-width: 992px) {
+    .logo-ing {
+        height: 140px;
+
+    }
+}
+
+@media (max-width: 992px) {
+    .logo-ing {
+        position: fixed;
+
+    }
+}
+
+@media (max-width: 992px) {
+    .logo-ing {
+        top: 65px;
+    }
+}
+
 
 
 @media (max-width: 768px) {
-    .logo-ing {width: 100px;
-              
+    .logo-ing {
+        width: 100px;
+
     }
 }
 
 @media (max-width: 768px) {
-    .logo-ing {height:  100px;
-              
+    .logo-ing {
+        height: 100px;
+
     }
 }
 
 @media (max-width: 768px) {
-    .logo-ing {position: absolute;
-              
+    .logo-ing {
+        position: fixed;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .logo-ing {
+        top: 105px;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo-ing {
+        width: 100px;
+
+    }
+}
+
+@media (max-width: 767px) {
+    .logo-ing {
+        height: 100px;
+
+    }
+}
+
+@media (max-width: 767px) {
+    .logo-ing {
+        position: fixed;
+
+    }
+}
+
+@media (max-width: 767px) {
+    .logo-ing {
+        top: 50px;
+    }
+}
+
+@media (max-width: 576px) {
+    .logo-ing {
+        width: 90px;
+
+    }
+}
+
+@media (max-width: 576px) {
+    .logo-ing {
+        height: 90px;
+
+    }
+}
+
+@media (max-width: 576px) {
+    .logo-ing {
+        position: fixed;
+
+    }
+
+@media (max-width: 576px) {
+        .logo-ing {
+            top: 55px;
+        }
+    }
+
+}
+
+@media (max-width: 414px) {
+    .logo-ing {
+        width: 80px;
+
+    }
+}
+
+@media (max-width: 414px) {
+    .logo-ing {
+        height: 80px;
+
+    }
+}
+
+@media (max-width: 414px) {
+    .logo-ing {
+        top: 60px;
+    }
+}
+
+
+@media (max-width:992px){
+    .tel {    font-size: 24px
+        
     }
 }
