@@ -11,6 +11,7 @@ html{
 
 body{
     background-color: #f0e8dc;
+    min-height: 100%
 }
 
 
@@ -19,7 +20,13 @@ a {
     color: #ffffff;
 }
 
-
+a:hover {
+	color: #89a264;
+/*	color: #124559;*/
+	text-decoration: none;
+	
+	
+};
 
 header {
 
@@ -69,6 +76,7 @@ nav a {
     display: inline-flex;
 
 
+
     /*    font-size: 17px;*/
     /*    line-height: normal;*/
     /*    letter-spacing: normal;*/
@@ -108,16 +116,21 @@ nav a {
     border-radius: 50%;
     position: sticky;
     top: 70px;
-      z-index:99999999;
+    z-index:99999999;
 
 
 }
 
-/*.mail-content {*/
+.mail-content {
+    width: 100%;
+/*	display: inline-block;*/
+/*	position:fixed;*/
+/*	margin-top:inherit;*/
+    
 /*     flex-grow: 1;*/
 /*}*/
 
-
+}
 
 footer {
     width: 100%;
