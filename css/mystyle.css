@@ -124,14 +124,45 @@ nav a {
 .mail-content {
     width: 100%;
 	height: auto;
-/*	display: inline-block;*/
-/*	position:fixed;*/
-/*	margin-top:inherit;*/
-    
-/*     flex-grow: 1;*/
-/*}*/
 
 }
+
+.food-menu{
+	margin-top: 70px;
+	margin-bottom: 70px;
+	
+}
+
+article{
+	background-image:rgba (115, 98, 108, 0.5); 
+	
+	
+}
+
+
+article img {
+	display: inline-block;
+	width: 390px;
+	height: 335px;
+	border-radius: 60px;
+	margin-bottom: 50px;
+	margin-left: 110px;
+	margin-right: 70px;
+	opacity: 0.6;
+	
+	
+	
+}
+
+
+article a{
+	
+	
+	
+	
+}
+
+
 
 footer {
     width: 100%;
