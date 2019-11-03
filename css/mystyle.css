@@ -26,7 +26,7 @@ a:hover {
 	text-decoration: none;
 	
 	
-};
+}
 
 header {
 
@@ -123,6 +123,7 @@ nav a {
 
 .mail-content {
     width: 100%;
+	height: auto;
 /*	display: inline-block;*/
 /*	position:fixed;*/
 /*	margin-top:inherit;*/
@@ -144,10 +145,57 @@ footer {
 
 }
 
-.social-media a {
+.social-media  {
+	
+/*	display:flex;*/
     text-decoration: none;
-
+	list-style: none;
+	font-size: 0;
+/*	color: red;*/
+/*	background-image: url(../img/spritesheet.png);*/
+/*    background: no-repeat;*/
+	display: flex;
 }
+ 
+
+li a span {background: url("../img/icons.png");
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 64px;
+	width:  64px;
+	;
+}
+
+li:nth-child(1) a span{
+	background-position: -5px -5px; 
+	
+}
+
+li:nth-child(1) a:hover span {
+background-position: -79px -5px;	
+}
+
+
+li:nth-child(2) a span{
+	background-position: -5px -79px; 
+	
+}
+
+li:nth-child(2) a:hover span {
+background-position:  -79px -79px;	
+}
+
+
+li:nth-child(3) a span{
+	background-position: -153px -5px; 
+	
+}
+
+li:nth-child(3) a:hover span {
+background-position:  -153px -79px;	
+}
+
+
 
 .copyrait {
     margin-top: auto;
