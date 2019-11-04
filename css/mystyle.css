@@ -11,7 +11,13 @@ html {
 
 body {
 	background-color: #f0e8dc;
-	min-height: 100%
+	min-height: 100%;
+/*	background-image: url(../img/food-menu-1280.png);*/
+/*	background-position: 50% 100%;*/
+/*	background-repeat:repeat-y;*/
+/*	background-attachment: fixed;*/
+	
+	
 }
 
 
@@ -135,26 +141,51 @@ nav a {
 
 }
 
+
+.food-menu{
+	
+
+	background-image: url(../img/food-menu-1280.png) ;
+	
+	background-position: 50% 0;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+/*	opacity: 0.4;*/
+/*	background: rgba(0,0,0, 0.1)*/
+/*	background-color:transparent;*/
+}
+
+article{
+	
+}
+
 article div {
 
-	display: inline-block;
+	display: block;
 	position:relative;
-	margin-left: 110px;
-	margin-right: 70px;
+	margin-left: 50px;
+/*	margin-right: 50px;*/
+	margin-bottom: 50px;
+/*	margin-top: 50px;*/
+/*	opacity: 0.;*/
+
 	
 	background-color: #73626c;
-	background: rgba (115, 98, 108, 0.5);
+	
+/*	background: rgba (115, 98, 108, 0.5);*/
 	
 	width: 390px;
 	height: 335px;
 	border-radius: 60px;
+/*	z-index: 99999996;*/
+/*	opacity: 0.6;*/
 
 
 }
 
 
 div img {
-	display: inline-block;
+/*	display: inline-block;*/
 /*	float:none;*/
 	width: 390px;
 	height: 335px;
@@ -162,22 +193,11 @@ div img {
 	margin-bottom: 50px;
 /*	margin-left: 110px;*/
 /*	margin-right: 70px;*/
-	opacity: 0.6;
+/*	z-index: 99999998;*/
+	opacity: 0.65;
 
 
 }
-
-
-.imgxxx{
-	
-	opacity: 1;
-
-	
-}
-
-
-article a {}
-
 
 
 h2
@@ -191,7 +211,7 @@ h2
 	color: #ffffff;
 	font-family: 'Alegreya', serif;
 	font-weight: 500;
-	z-index: 99999999;
+	z-index: 99999998;
 	
 		
 }
@@ -219,6 +239,7 @@ footer {
 	list-style: none;
 	position: fixed;
 	bottom: 0;
+	z-index: 99999999;
 
 }
 
@@ -327,11 +348,6 @@ li:nth-child(3) a:hover span {
 		padding: 20px;
 	}
 }
-
-
-
-
-
 
 /*Медиа запрос для менюшки*/
 
