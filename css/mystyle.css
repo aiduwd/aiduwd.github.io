@@ -112,7 +112,6 @@ nav a {
 	/*    align-self: flex-end;*/
 
 
-
 }
 
 .logo-ing {
@@ -125,8 +124,6 @@ nav a {
 	z-index: 99999999;
 	opacity: 1;
 	
-
-
 }
 
 .mail-content {
@@ -135,15 +132,11 @@ nav a {
 
 }
 
-.food-menu {
-	margin-top: 70px;
-	margin-bottom: 70px;
-
-}
-
 
 .food-menu{
 	
+	margin-top: 70px;
+	margin-bottom: 70px;
 
 	background-image: url(../img/food-menu-1280.png) ;
 	
