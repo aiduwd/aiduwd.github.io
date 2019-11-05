@@ -1,5 +1,6 @@
 body{
-	background-color: firebrick;
+	background-color: #	background-color: #F0E8DC;
+
 }
 ul{
 	font-size: 20px;
@@ -46,9 +47,10 @@ background-position:  -153px -79px;
 
 
 
+/*Кнопка мини менюшки*/
 
+.batton-menu
 
-.nav-bar 
 	{background: url("../img/nav-bar.png");
 	background-repeat: no-repeat;
 	display: inline-block;
@@ -59,11 +61,21 @@ background-position:  -153px -79px;
 	
 }
 
-.nav-bar:hover
+.batton-menu:hover
 {
 	background-position: 
 	-63px -5px;
 }
+
+/*-----------------------------------------------*/
+
+
+.nav-bar-min {
+/**/
+    
+/**/
+}
+
 
 a {
   text-decoration: none;
@@ -82,13 +94,13 @@ ul {
 
 li {
     color: #fff;
-  background: darkorange;
+    background:  #73626C;;
     display: block;
     float: left;
     padding: 1rem;
     position: relative;
     text-decoration: none;
-  transition-duration: 0.5s;
+/*    transition-duration: 0.5s;*/
 }
   
 li a {
@@ -96,20 +108,21 @@ li a {
 }
 
 li:hover {
-    background: red;
+    background:#73626C;;
     cursor: pointer;
+    opacity: 0.6;
 }
 
 ul li ul {
-    background: orange;
+    background:  #73626C;
     visibility: hidden;
-  opacity: 0;
-  min-width: 5rem;
+    opacity: 0.6;
+    min-width: 5rem;
     position: absolute;
-  transition: all 0.5s ease;
-  margin-top: 1rem;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
     left: 0;
-  display: none;
+    display: none;
 }
 
 ul li:hover > ul,

@@ -12,14 +12,7 @@ html {
 body {
 	background-color: #f0e8dc;
 	min-height: 100%;
-/*	background-image: url(../img/food-menu-1280.png);*/
-/*	background-position: 50% 100%;*/
-/*	background-repeat:repeat-y;*/
-/*	background-attachment: fixed;*/
-	
-	
 }
-
 
 a {
 	text-decoration: none;
@@ -30,14 +23,12 @@ a:hover {
 	color: #89a264;
 	/*	color: #124559;*/
 	text-decoration: none;
-
-
 }
 
 header {
 
 	background-color: #73626c;
-	/*    text-align:center;*/
+
 }
 
 .header-top {
@@ -62,46 +53,25 @@ h1 {
 	padding-top: 10px;
 }
 
-/*.wrapper-menu{ */
-/*    margin-right: auto;*/
-/*    margin-left: auto;*/
-/*    display:inline-block;*/
-/*    vertical-align: middle;*/
-/*    text-align: center;*/
-/*    */
-
 nav li {
 	/*  display: inline-block;*/
 }
 
 nav a {
-	/*    display: inline-block;*/
-	/*    background: #000;*/
+
 	padding: 0 10px;
 	font-size: 36px;
 	display: inline-flex;
 
-
-
-	/*    font-size: 17px;*/
-	/*    line-height: normal;*/
-	/*    letter-spacing: normal;*/
 }
 
 
 .my-nav {
-	/*    background: red;*/
-	/*    display: inline-block;*/
-	/*    vertical-align: middle;*/
+
 	display: flex;
-	/*    display: inline-block;*/
 	list-style: none;
-	/*    text-align: center;*/
-	/*        margin-left: auto;*/
-	/*        margin-left: auto;*/
 	width: 100%;
-	/*        padding-left: 50px;*/
-	/*        padding-right: 50px;*/
+
 	font-family: 'Alegreya Sans', sans-serif;
 	font-weight: bold;
 	/*    font-size: 36px;*/
@@ -125,6 +95,41 @@ nav a {
 	opacity: 1;
 	
 }
+
+
+/*Кнопка мини менюшки*/
+
+.nav-bar-menu
+	{background: url("../img/nav-bar.png");
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 48px;
+	width:  48px;
+	background-position: -5px -5px;
+	font-size: 0;
+	
+}
+
+.nav-bar-menu:hover
+{
+	background-position: 
+	-63px -5px;
+}
+
+/*-----------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .mail-content {
 	width: 100%;
@@ -213,15 +218,6 @@ h2:hover {
 	color: #89a264;
 	
 	}
-
-
-
-
-
-
-
-
-
 
 footer {
 	width: 100%;
